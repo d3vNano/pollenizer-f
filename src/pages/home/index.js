@@ -1,11 +1,16 @@
-import * as ss from "./css";
+import styled from "styled-components";
 
-function HomePage() {
+import HomeScreen from "../../layouts/home";
+
+export default function HomePage() {
     return (
-        <>
-            <ss.Test>wee</ss.Test>
-        </>
+        <Screen>
+            <HomeScreen />
+        </Screen>
     );
 }
 
-export default HomePage;
+export const Screen = styled.div`
+    width: 100%;
+    height: 100%;
+`;

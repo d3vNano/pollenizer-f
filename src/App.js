@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify";
 
 import HomePage from "./pages/home";
 
-function App() {
+export default function App() {
     return (
         <>
             <ToastContainer />
@@ -20,5 +20,3 @@ function App() {
         </>
     );
 }
-
-export default App;

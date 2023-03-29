@@ -1,6 +1,4 @@
-import styled from "styled-components";
 import * as s from "./style";
-
 import * as bs from "react-icons/bs";
 
 export default function ThemeIcon() {

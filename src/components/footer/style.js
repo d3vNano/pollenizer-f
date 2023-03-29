@@ -14,6 +14,11 @@ export const Close = styled.div`
         align-items: center;
     }
 
+    copy {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
     p {
         font-size: 12px;
         font-weight: 500;
@@ -58,7 +63,7 @@ export const Close = styled.div`
         }
     }
 
-    next {
+    more {
         display: flex;
         align-items: center;
         margin-left: 10px;

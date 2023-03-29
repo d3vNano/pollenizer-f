@@ -1,21 +1,11 @@
-import styled from "styled-components";
+import * as s from "./style";
 
-function Body() {
+import MainBody from "../../../components/body";
+
+export default function Body() {
     return (
-        <Container>
-            <>BODY</>
-        </Container>
+        <s.Screen>
+            <MainBody />
+        </s.Screen>
     );
 }
-
-export default Body;
-
-const Container = styled.div`
-    width: 100%;
-    height: 100%;
-
-    margin-top: 230px;
-    padding: 20px 0;
-
-    background-color: #fff;
-`;

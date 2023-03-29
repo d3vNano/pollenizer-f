@@ -9,7 +9,7 @@ export function ClosedFooter() {
     return (
         <s.Close>
             <nav>
-                <p>© 2023 Autoral, Inc.</p>
+                <copy>© 2023 Autoral, Inc.</copy>
                 <spacer>•</spacer>
                 <p>Privacidade</p>
                 <spacer>•</spacer>
@@ -33,10 +33,10 @@ export function ClosedFooter() {
                 </p>
             </lang>
             <ThemeIcon />
-            <next>
+            <more>
                 <p>Recursos e mais</p>
                 <fa.FaAngleUp />
-            </next>
+            </more>
         </s.Close>
     );
 }

@@ -1,16 +1,10 @@
-import styled from "styled-components";
-
+import * as s from "./style";
 import HomeScreen from "../../layouts/home";
 
 export default function HomePage() {
     return (
-        <Screen>
+        <s.Screen>
             <HomeScreen />
-        </Screen>
+        </s.Screen>
     );
 }
-
-export const Screen = styled.div`
-    width: 100%;
-    height: 100%;
-`;

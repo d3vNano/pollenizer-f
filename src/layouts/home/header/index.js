@@ -1,60 +1,15 @@
-import styled from "styled-components";
+import * as s from "./style";
 
-function Header() {
+import MainHeader from "../../../components/header/main";
+import MenuHeader from "../../../components/header/menu";
+import FilterHeader from "../../../components/header/filter";
+
+export default function Header() {
     return (
-        <Screen>
-            <Primary>
-                <>PRINCIPAL</>
-            </Primary>
-            <Filter>
-                <>FILTROS</>
-            </Filter>
-            <SecFilter>
-                <>FILTROS APLICADOS</>
-            </SecFilter>
-        </Screen>
+        <s.Screen>
+            <MainHeader />
+            <MenuHeader />
+            <FilterHeader />
+        </s.Screen>
     );
 }
-
-export default Header;
-
-const Screen = styled.div`
-    width: 100%;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-`;
-
-const Primary = styled.div`
-    width: 100%;
-    height: 80px;
-
-    display: flex;
-    align-items: center;
-
-    background-color: #fff;
-    border-bottom: 1.5px solid #ddd;
-`;
-
-const Filter = styled.div`
-    width: 100%;
-    height: 100px;
-
-    display: flex;
-    align-items: center;
-
-    background-color: #fff;
-    border-bottom: 1.5px solid #ddd;
-`;
-
-const SecFilter = styled.div`
-    width: 100%;
-    height: 50px;
-
-    display: flex;
-    align-items: center;
-
-    background-color: #fff;
-    border-bottom: 1.5px solid #ddd;
-`;

@@ -1,11 +1,15 @@
 import * as s from "./style";
 
+import SearchBar from "./SearchBar";
+import Logo from "./Logo";
+import User from "./User";
+
 export default function MainHeader() {
     return (
         <s.Container>
-            <h1>LOGO</h1>
-            <h1>SEARCH</h1>
-            <h1>USER</h1>
+            <Logo />
+            <SearchBar />
+            <User />
         </s.Container>
     );
 }

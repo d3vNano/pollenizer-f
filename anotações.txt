@@ -1,0 +1,29 @@
+tabela de categorias:
+
+ id:
+ label:
+
+tabela de empresas:
+
+id:
+name:
+craft:
+category_id:
+address: {
+    zip_code:
+    street:
+    number:
+    ?complement:
+    district:
+    city:
+    state:
+}
+logo:
+photos: {
+    id_1:
+    id_2:
+    id_3:
+    id_4:
+}
+favorite_id
+avaliation_id

@@ -1,15 +1,11 @@
 import * as s from "./style";
 
-import MainHeader from "../../../components/header/main";
-import MenuHeader from "../../../components/header/menu";
-import FilterHeader from "../../../components/header/filter";
+import Header from "../../../components/header";
 
-export default function Header() {
+export default function HeaderScreen({ categories, onSelect }) {
     return (
         <s.Screen>
-            <MainHeader />
-            <MenuHeader />
-            <FilterHeader />
+            <Header categories={categories} onSelect={onSelect} />
         </s.Screen>
     );
 }

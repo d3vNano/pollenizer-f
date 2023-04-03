@@ -66,22 +66,23 @@ export const Carrossel = styled.div`
 
     border-radius: 0 0 20px 20px;
 
-    img1 {
-        width: 25%;
+    .a {
+        width: 24%;
         height: 100%;
         border-radius: 0 0 0 20px;
         background-color: rgba(0, 0, 0, 0.75);
+        object-fit: cover;
     }
 
-    img2 {
-        width: 25%;
+    .b {
+        width: 24%;
         height: 100%;
 
         background-color: rgba(0, 0, 0, 0.75);
     }
 
-    img3 {
-        width: 25%;
+    .c {
+        width: 24%;
         height: 100%;
         border-radius: 0 0 20px 0;
         background-color: rgba(0, 0, 0, 0.75);
@@ -112,6 +113,7 @@ export const Infos = styled.div`
     }
     p {
         font-size: 15px;
+        line-height: 20px;
         font-weight: 300;
         font-style: italic;
         color: #7d7d7d;

@@ -12,3 +12,16 @@ export const Container = styled.div`
     background-color: #fff;
     border-bottom: 1.5px solid #ddd;
 `;
+
+export const Button = styled.button`
+    font-size: 17px;
+    font-weight: 100;
+
+    border: none;
+    background-color: #fff;
+
+    &:hover {
+        font-size: 18px;
+        cursor: pointer;
+    }
+`;

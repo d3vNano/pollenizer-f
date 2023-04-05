@@ -1,6 +1,6 @@
 import * as s from "./style";
 
-import MainBody from "../../../components/body";
+import MainBody from "../../../components/home/body";
 
 export default function BodyScreen({ filteredBusiness }) {
     return (

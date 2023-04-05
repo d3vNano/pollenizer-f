@@ -1,6 +1,6 @@
 import * as s from "./style";
 
-import Header from "../../../components/header";
+import Header from "../../../components/home/header";
 
 export default function HeaderScreen({ categories, onSelect }) {
     return (

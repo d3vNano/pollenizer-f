@@ -17,13 +17,13 @@ export default function HomeScreen() {
             : business.filter((data) => data.category.id === filter.id);
 
     return (
-        <s.Container>
+        <s.Screen>
             <HeaderScreen
                 categories={[{ id: 0, label: "Todos" }, ...categories]}
                 onSelect={(category) => setFilter(category)}
             />
             <BodyScreen filteredBusiness={filteredBusiness} />
             <FooterScreen />
-        </s.Container>
+        </s.Screen>
     );
 }

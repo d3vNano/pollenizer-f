@@ -1,7 +1,7 @@
 import { useState } from "react";
 import * as s from "./style";
 
-import MainHeader from "./main";
+import MainHeader from "../../common/header/main";
 import MenuHeader from "./menu";
 import FilterHeader from "./filter";
 

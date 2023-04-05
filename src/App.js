@@ -7,6 +7,7 @@ import {
 import { ToastContainer } from "react-toastify";
 
 import HomePage from "./pages/home";
+import BusinessPage from "./pages/business";
 
 export default function App() {
     return (
@@ -15,6 +16,7 @@ export default function App() {
             <Router>
                 <Routes>
                     <Route path="/home" element={<HomePage />} />
+                    <Route path="/business/:id" element={<BusinessPage />} />
                 </Routes>
             </Router>
         </>

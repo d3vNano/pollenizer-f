@@ -1,5 +1,5 @@
 import * as s from "./style";
-import { ClosedFooter, OpenFooter } from "../../../components/footer";
+import { ClosedFooter, OpenFooter } from "../../../components/home/footer";
 
 export default function FooterScreen() {
     return (

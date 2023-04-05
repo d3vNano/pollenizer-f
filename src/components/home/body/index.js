@@ -9,7 +9,7 @@ export default function MainBody({ filteredBusiness }) {
     return (
         <s.Container bla={bla}>
             {filteredBusiness.map((data) => (
-                <Link to={`/access/${data.id}`}>
+                <Link to={`/business/${data.id}`}>
                     <Sample key={data.id} data={data} />
                 </Link>
             ))}

@@ -3,8 +3,8 @@ import HomeScreen from "../../layouts/home";
 
 export default function HomePage() {
     return (
-        <s.Screen>
+        <s.Page>
             <HomeScreen />
-        </s.Screen>
+        </s.Page>
     );
 }

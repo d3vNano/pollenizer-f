@@ -8,6 +8,7 @@ import { ToastContainer } from "react-toastify";
 
 import HomePage from "./pages/home";
 import BusinessPage from "./pages/business";
+import Test from "./layouts/business/body/side/date";
 
 export default function App() {
     return (
@@ -15,7 +16,8 @@ export default function App() {
             <ToastContainer />
             <Router>
                 <Routes>
-                    <Route path="/home" element={<HomePage />} />
+                    <Route path="/test" element={<Test />} />
+                    <Route path="/" element={<HomePage />} />
                     <Route path="/business/:id" element={<BusinessPage />} />
                 </Routes>
             </Router>

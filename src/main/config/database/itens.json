@@ -1,0 +1,332 @@
+[
+    {
+        "id": 1,
+        "title": "Jessica Ramazzotti - Nail Designer",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 2,
+            "label": "Manicure"
+        },
+        "logo": "https://scontent.fbfh21-1.fna.fbcdn.net/v/t39.30808-6/301589986_524954756298774_5129483018347686111_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeEcTohi_itam6nHFf1mJ-Aizt8A_yjZIArO3wD_KNkgCnv8SpH4ZhpwpSFbcNXNQZRhGemzl1PjOQ2_qvThwP0n&_nc_ohc=Y21Cs2YplMwAX_j3Ac-&_nc_ht=scontent.fbfh21-1.fna&oh=00_AfDOt4ro7FxiM9NhxPdj03-AqQag6wIdeMlAheqXr8Dg1g&oe=642BAC0A",
+        "photos": {
+            "a": "https://img.freepik.com/fotos-gratis/mulher-mostrando-suas-lindas-unhas_23-2148697087.jpg?w=2000",
+            "b": "https://scontent.fbfh21-1.fna.fbcdn.net/v/t1.6435-9/101731174_3234851193232659_2390273325994606592_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8631f5&_nc_eui2=AeHPyKbtdzcxQVv4BGd4uTyw9n7i42rN6aL2fuLjas3pos3Z86HbzxHZ8h-VqmA3QElG5sjwQKM9YZlDnksp3_W7&_nc_ohc=qVadOHzfWPoAX_bHXHD&_nc_ht=scontent.fbfh21-1.fna&oh=00_AfBjwU4V8suIjEAIyvjbAyUy7lhtPK1ACiKf4DkW938zRA&oe=644DAA1F",
+            "c": "https://www.rogouveia.com.br/wp-content/uploads/2022/03/acripie-1024x768.jpeg",
+            "d": "https://images.tcdn.com.br/img/img_prod/784773/pedicure_1003775_1_20200811170810.jpeg"
+        },
+        "favorite": {
+            "quantity": 1000,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.98,
+            "stars": 0,
+            "boolean": false
+        }
+    },
+    {
+        "id": 2,
+        "title": "Savana - Barbershop",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 1,
+            "label": "Barbearia"
+        },
+        "logo": "https://designwebsite.com.br/wp-content/uploads/2022/10/Criacao-de-logomarca-para-barbearia-barber-shop.jpg",
+        "photos": {
+            "a": "http://barbeirocampinas.com.br/wp-content/uploads/2017/01/cabelo2.jpg",
+            "b": "https://img.freepik.com/fotos-gratis/cliente-fazendo-o-corte-de-cabelo-em-um-salao-de-barbearia_1303-20861.jpg",
+            "c": "https://static.ndmais.com.br/2021/03/istock-1185955900-800x533.jpg",
+            "d": "https://www.belasis.com.br/wp-content/uploads/2022/01/Vantagens-barbearia-Blogpost-Banner.png"
+        },
+        "favorite": {
+            "quantity": 2000,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.99,
+            "stars": 0,
+            "boolean": false
+        }
+    },
+    {
+        "id": 3,
+        "title": "Jessica Brune - Nail Designer",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 2,
+            "label": "Manicure"
+        },
+        "logo": "https://i.pinimg.com/originals/7e/3b/be/7e3bbe1c2a5616f2b999e2aacbca7ca4.jpg",
+        "photos": {
+            "a": "https://img.freepik.com/fotos-gratis/mulher-mostrando-suas-lindas-unhas_23-2148697087.jpg?w=2000",
+            "b": "https://scontent.fbfh21-1.fna.fbcdn.net/v/t1.6435-9/101731174_3234851193232659_2390273325994606592_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8631f5&_nc_eui2=AeHPyKbtdzcxQVv4BGd4uTyw9n7i42rN6aL2fuLjas3pos3Z86HbzxHZ8h-VqmA3QElG5sjwQKM9YZlDnksp3_W7&_nc_ohc=qVadOHzfWPoAX_bHXHD&_nc_ht=scontent.fbfh21-1.fna&oh=00_AfBjwU4V8suIjEAIyvjbAyUy7lhtPK1ACiKf4DkW938zRA&oe=644DAA1F",
+            "c": "https://www.rogouveia.com.br/wp-content/uploads/2022/03/acripie-1024x768.jpeg",
+            "d": "https://images.tcdn.com.br/img/img_prod/784773/pedicure_1003775_1_20200811170810.jpeg"
+        },
+        "favorite": {
+            "quantity": 406,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.97,
+            "stars": 0,
+            "boolean": false
+        }
+    },
+    {
+        "id": 4,
+        "title": "Wee - Maquiadora",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 3,
+            "label": "Maquiagem"
+        },
+        "logo": "",
+        "photos": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+        },
+        "favorite": {
+            "quantity": 420,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.95,
+            "stars": 0,
+            "boolean": false
+        }
+    },
+    {
+        "id": 5,
+        "title": "Wee - Lash Designer",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 4,
+            "label": "Sobrancelha e Cílios"
+        },
+        "logo": "",
+        "photos": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+        },
+        "favorite": {
+            "quantity": 934,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.95,
+            "stars": 0,
+            "boolean": false
+        }
+    },
+    {
+        "id": 6,
+        "title": "Outra - Maquiagem",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 3,
+            "label": "Maquiagem"
+        },
+        "logo": "",
+        "photos": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+        },
+        "favorite": {
+            "quantity": 300,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.95,
+            "stars": 0,
+            "boolean": false
+        }
+    },
+    {
+        "id": 7,
+        "title": "Mais Uma - Maquiagem",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 3,
+            "label": "Maquiagem"
+        },
+        "logo": "",
+        "photos": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+        },
+        "favorite": {
+            "quantity": 156,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.95,
+            "stars": 0,
+            "boolean": false
+        }
+    },
+    {
+        "id": 8,
+        "title": "Mais Uma - Lash Designer",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 4,
+            "label": "Sobrancelha e Cílios"
+        },
+        "logo": "",
+        "photos": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+        },
+        "favorite": {
+            "quantity": 200,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.97,
+            "stars": 0,
+            "boolean": false
+        }
+    },
+    {
+        "id": 9,
+        "title": "Só Mais Uma - Lash Designer",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 4,
+            "label": "Sobrancelha e Cílios"
+        },
+        "logo": "",
+        "photos": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+        },
+        "favorite": {
+            "quantity": 200,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.97,
+            "stars": 0,
+            "boolean": false
+        }
+    },
+    {
+        "id": 10,
+        "title": "Mais Outra - Lash Designer",
+        "address": {
+            "rua": "Rua Tal e coisa",
+            "numero": "9999",
+            "complemento": null,
+            "bairro": "Bairro Legal",
+            "CEP": "000000-000",
+            "cidade": "Cidade",
+            "estado": "Estado"
+        },
+        "category": {
+            "id": 4,
+            "label": "Sobrancelha e Cílios"
+        },
+        "logo": "",
+        "photos": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+        },
+        "favorite": {
+            "quantity": 200,
+            "boolean": false
+        },
+        "avaliation": {
+            "quantity": 4.97,
+            "stars": 0,
+            "boolean": false
+        }
+    }
+]

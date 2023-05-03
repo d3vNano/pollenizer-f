@@ -5,10 +5,10 @@ import * as ai from "react-icons/ai";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import categories from "../database/categorias.json";
-import business from "../database/itens.json";
-
 export default function HomePage() {
+    const business = [];
+    const categories = [];
+
     const [filter, setFilter] = useState({ id: 0, label: "Todos" });
     const filteredBusiness =
         filter.id === 0
@@ -75,7 +75,7 @@ export default function HomePage() {
                                 <Link to={`/business/${data.id}`}>
                                     <Sample key={data.id} data={data}>
                                         <Business>
-                                            <img src={data.logo} />
+                                            <img src={data.logo} alt="logo" />
                                             <evalIcon>
                                                 <ai.AiOutlineStar />
                                                 <p>
@@ -91,21 +91,25 @@ export default function HomePage() {
                                             <img
                                                 className="a"
                                                 src={data.photos.a}
+                                                alt="a"
                                             />
                                             <spacer />
                                             <img
                                                 className="b"
                                                 src={data.photos.b}
-                                            />
-                                            <spacer />
-                                            <img
-                                                className="b"
-                                                src={data.photos.c}
+                                                alt="b"
                                             />
                                             <spacer />
                                             <img
                                                 className="c"
+                                                src={data.photos.c}
+                                                alt="c"
+                                            />
+                                            <spacer />
+                                            <img
+                                                className="d"
                                                 src={data.photos.d}
+                                                alt="d"
                                             />
                                         </Carrossel>
                                         <Infos>
@@ -177,7 +181,7 @@ export default function HomePage() {
                                 <Link to={`/business/${data.id}`}>
                                     <Sample key={data.id} data={data}>
                                         <Business>
-                                            <img src={data.logo} />
+                                            <img src={data.logo} alt="logo" />
                                             <evalIcon>
                                                 <ai.AiOutlineStar />
                                                 <p>
@@ -193,21 +197,25 @@ export default function HomePage() {
                                             <img
                                                 className="a"
                                                 src={data.photos.a}
+                                                alt="a"
                                             />
                                             <spacer />
                                             <img
                                                 className="b"
                                                 src={data.photos.b}
+                                                alt="b"
                                             />
                                             <spacer />
                                             <img
                                                 className="b"
                                                 src={data.photos.c}
+                                                alt="c"
                                             />
                                             <spacer />
                                             <img
                                                 className="c"
                                                 src={data.photos.d}
+                                                alt="d"
                                             />
                                         </Carrossel>
                                         <Infos>
@@ -241,12 +249,8 @@ export default function HomePage() {
                             </div>
                         </div>
                         <div className="sign">
-                            <div>
-                                <h1 onClick={() => setLogin(true)}>Entrar</h1>
-                                <h1 onClick={() => setRegister(true)}>
-                                    Cadastrar
-                                </h1>
-                            </div>
+                            <h1 onClick={() => setLogin(true)}>Entrar</h1>
+                            <h1 onClick={() => setRegister(true)}>Cadastrar</h1>
                         </div>
                     </div>
                     <nav>
@@ -266,7 +270,7 @@ export default function HomePage() {
                             <Link to={`/business/${data.id}`}>
                                 <Sample key={data.id} data={data}>
                                     <Business>
-                                        <img src={data.logo} />
+                                        <img src={data.logo} alt="logo" />
                                         <evalIcon>
                                             <ai.AiOutlineStar />
                                             <p>{data.avaliation.quantity}</p>
@@ -280,21 +284,25 @@ export default function HomePage() {
                                         <img
                                             className="a"
                                             src={data.photos.a}
+                                            alt="a"
                                         />
                                         <spacer />
                                         <img
                                             className="b"
                                             src={data.photos.b}
-                                        />
-                                        <spacer />
-                                        <img
-                                            className="b"
-                                            src={data.photos.c}
+                                            alt="b"
                                         />
                                         <spacer />
                                         <img
                                             className="c"
+                                            src={data.photos.c}
+                                            alt="c"
+                                        />
+                                        <spacer />
+                                        <img
+                                            className="d"
                                             src={data.photos.d}
+                                            alt="d"
                                         />
                                     </Carrossel>
                                     <Infos>

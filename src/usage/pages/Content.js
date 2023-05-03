@@ -46,8 +46,14 @@ export function Content({
                         </div>
                     ) : (
                         <div className="log">
-                            <h1 onClick={() => setLogin(true)}>Entrar</h1>
-                            <h1 onClick={() => setRegister(true)}>Cadastrar</h1>
+                            <div className="logReg">
+                                <h1 onClick={() => setLogin(true)}>Entrar</h1>
+                                <h1 onClick={() => setRegister(true)}>
+                                    Cadastrar
+                                </h1>
+                            </div>
+                            <div className="spacer"></div>
+                            <UserMenu />
                         </div>
                     )}
                 </div>
@@ -147,6 +153,9 @@ const Main = styled.div`
 
         display: flex;
         justify-content: flex-end;
+
+        border: 1px solid #ddd;
+        border-radius: 500px;
 
         .user {
             display: flex;

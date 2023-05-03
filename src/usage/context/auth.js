@@ -17,6 +17,9 @@ export const AuthProvider = (props) => {
     const [photo, setPhoto] = useState(localStorage.getItem("photo"));
     const [userLogin, setUserLogin] = useState({ email: "", password: "" });
 
+    const [login, setLogin] = useState(false);
+    const [register, setRegister] = useState(false);
+
     return (
         <AuthContext.Provider
             value={{
@@ -32,6 +35,10 @@ export const AuthProvider = (props) => {
                 setUserRegistration,
                 token,
                 setToken,
+                login,
+                setLogin,
+                register,
+                setRegister,
             }}
         >
             {props.children}
